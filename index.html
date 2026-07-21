@@ -77,6 +77,7 @@
             <input
               type="text"
               name="userName"
+              required
               placeholder="e.g. Stephen King"
             />
 
@@ -89,6 +90,7 @@
             <input
               type="email"
               name="email"
+              required
               placeholder="e.g. stephenking@lorem.com"
             />
 
@@ -98,7 +100,12 @@
           <div class="field">
             <label>Phone Number</label>
 
-            <input type="text" name="phone" placeholder="e.g. 7894561230" />
+            <input
+              type="tel"
+              name="phone"
+              required
+              placeholder="+1 234 567 890"
+            />
 
             <small class="error"></small>
           </div>
